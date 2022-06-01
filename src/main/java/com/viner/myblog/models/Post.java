@@ -47,6 +47,7 @@ public class Post {
         this.full_text = full_text;
     }
 
+
     public int getViews() {
         return views;
     }
@@ -55,9 +56,12 @@ public class Post {
         this.views = views;
     }
 
+    public Post(String title, String anons, String full_text) {
+        this.title = title;
+        this.anons = anons;
+        this.full_text = full_text;
+    }
 
-
-
-
-
+    public Post() {
+    }
 }
